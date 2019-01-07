@@ -1,4 +1,4 @@
-cd xray-16
-mkdir bin
-cd bin
-cmake ..
+cd /xray-16 &&\
+mkdir bin &&\
+cd bin &&\
+cmake .. &&\

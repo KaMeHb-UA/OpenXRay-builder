@@ -30,3 +30,5 @@ RUN /bin/sh -c 'echo "make -j$(nproc)" >> /build.sh'
 
 # Project building
 RUN /build.sh
+COPY install.sh /
+RUN /install.sh
