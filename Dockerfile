@@ -26,5 +26,7 @@ RUN pacman -S --noconfirm\
 RUN git clone https://github.com/OpenXRay/xray-16.git --recurse-submodules
 
 COPY build.sh /
+RUN /bin/sh -c 'echo "make -j$(nproc)" >> /build.sh'
+
 # Project building
 RUN /build.sh
