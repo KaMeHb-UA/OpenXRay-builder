@@ -1,3 +1,4 @@
-mkdir /openxray-bin-dbg &&\
-cd /xray-16/bin &&\
-make DESTDIR=/openxray-bin-dbg install
+#!/bin/sh
+mkdir -p /game/bin
+cd /xray-16/bin
+make DESTDIR=/game/bin install

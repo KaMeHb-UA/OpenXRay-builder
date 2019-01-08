@@ -1,0 +1,3 @@
+cd /game-pkgbuild
+makepkg
+
