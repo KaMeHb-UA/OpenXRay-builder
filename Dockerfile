@@ -35,4 +35,5 @@ RUN /install.sh
 
 # Project packaging
 COPY ./pkg.sh /
+COPY ./pkg2appimage /
 RUN su - utemp -c '/pkg.sh'

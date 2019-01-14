@@ -1,0 +1,3 @@
+[submodule "pkg2appimage"]
+	path = pkg2appimage
+	url = https://github.com/AppImage/pkg2appimage.git
