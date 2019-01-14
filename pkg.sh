@@ -1,3 +1,5 @@
-cd /game-pkgbuild
-makepkg
+#!/bin/sh
 
+depends=('crypto++' 'libvorbis')
+
+cd /game.AppDir

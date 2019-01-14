@@ -34,9 +34,5 @@ COPY install.sh /
 RUN /install.sh
 
 # Project packaging
-RUN mkdir /game-pkgbuild
-RUN pacman -S --noconfirm audit fakeroot
-RUN useradd -m utemp && chmod 777 /game-pkgbuild
-COPY ./PKGBUILD /game-pkgbuild
 COPY ./pkg.sh /
 RUN su - utemp -c '/pkg.sh'
