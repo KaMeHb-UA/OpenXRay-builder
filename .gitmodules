@@ -1,3 +1,6 @@
 [submodule "pkg2appimage"]
 	path = pkg2appimage
 	url = https://github.com/AppImage/pkg2appimage.git
+[submodule "OpenXRay-builder-bot"]
+	path = OpenXRay-builder-bot
+	url = https://github.com/KaMeHb-UA/OpenXRay-builder-bot
